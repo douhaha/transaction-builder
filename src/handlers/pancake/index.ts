@@ -9,10 +9,6 @@ import {
 import {
   validateEvmAddress,
   validateEvmChain,
-  EVM_CHAIN_IDS,
-  getEvmProvider,
-  getTokenDecimals,
-  parseUnits,
 } from '../../utils/evm';
 import { PancakeService } from './src/service';
 import { AddLiquidityParams, RemoveLiquidityParams, StakeParams, FEE_TIERS } from './src/types';
